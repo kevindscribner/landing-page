@@ -133,13 +133,14 @@ p {
 }
 
 /* Signup Prompt */
+
 .signup {
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
     background-color: #3883F6;
-    color: white;
+    color: #E5E7EB;
     gap: 200px;
     padding: 50px;
     width: 900px;
@@ -159,4 +160,11 @@ p {
 .signup-button {
     border: 2px solid white;
     width: 120px;
+}
+
+footer {
+    text-align: center;
+    background-color: #1F2937;
+    color: #E5E7EB;
+    padding: 30px;
 }
