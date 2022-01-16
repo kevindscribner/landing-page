@@ -111,6 +111,8 @@ p {
     margin: auto;
 }
 
+/* Quote box */
+
 .quoted {
     display: flex;
     justify-content: center;
@@ -128,4 +130,33 @@ p {
     font-size: 20px;
     margin-top: 130px;
     font-style: normal;
+}
+
+/* Signup Prompt */
+.signup {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #3883F6;
+    color: white;
+    gap: 200px;
+    padding: 50px;
+    width: 900px;
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.signup-prompt {
+    font-weight: bold;
+}
+
+.signup-secondary {
+    font-weight: normal;
+}
+
+.signup-button {
+    border: 2px solid white;
+    width: 120px;
 }
